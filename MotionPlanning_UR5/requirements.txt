@@ -1,0 +1,9 @@
+# The one on pip is broken, so we install from source in submodule
+-e libs/ghalton
+
+matplotlib
+mock
+pyaml
+pybullet
+pybullet_planning
+tensorboard

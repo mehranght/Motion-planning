@@ -1,0 +1,17 @@
+robot:
+  initial_configuration_degs: [57.32,  -79.73, 110.87, -122.93, -88.77,  -52.80]
+  goal_configuration_degs: [-152.68,  -79.73, 110.87, -122.93, -88.77,  -52.80]
+
+bin:
+  dims: [0.5, 0.5, 0.5]
+  location: [0.1, -0.5, -0.4]
+
+oracle:
+  do_lsc: false
+  do_binary_contraction: true
+  do_resample: true
+  resample_step_size: 0.349
+  debug: false
+
+model:
+  dropout: [0., 0., 0.1, 0., 0.05, 0., 0.025, 0.0]
